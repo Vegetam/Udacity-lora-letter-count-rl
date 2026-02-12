@@ -6,4 +6,3 @@ outputs/checkpoints/
 *.safetensors
 .env
 .venv/
-.claude/
