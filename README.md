@@ -3,7 +3,6 @@
 This repo is structured to satisfy the rubric requirements:
 
 ## 1) Model Setup (LoRA via PEFT)
-- Base model: `HuggingFaceTB/SmolLM2-135M-Instruct`
 - LoRA implemented with PEFT in `src/lora_setup.py`
 - Hyperparameters explicitly set:
   - `lora_rank`: **64** (valid: 8,16,32,64,128)
@@ -50,8 +49,6 @@ python -m src.prompting_baseline
 
 # train LoRA
 python -m src.train
-python -c "import pandas as pd; df=pd.read_csv('outputs/logs/mean_correctness_over_time.csv'); print(df.head()); print(df.tail()); print('start', df.mean_correctness_reward.iloc[0], 'end', df.mean_correctness_reward.iloc[-1])"
-
 
 # compare base vs fine-tuned
 python -m src.evaluate
