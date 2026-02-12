@@ -1,0 +1,11 @@
+{"prompt": "Word: rank", "completion": "Output:\n1. r\n2. a\n3. n\n4. k\nCOUNT: 4"}
+{"prompt": "Word: java", "completion": "Output:\n1. j\n2. a\n3. v\n4. a\nCOUNT: 4"}
+{"prompt": "Word: llama", "completion": "Output:\n1. l\n2. l\n3. a\n4. m\n5. a\nCOUNT: 5"}
+{"prompt": "Word: banana", "completion": "Output:\n1. b\n2. a\n3. n\n4. a\n5. n\n6. a\nCOUNT: 6"}
+{"prompt": "Word: pirate", "completion": "Output:\n1. p\n2. i\n3. r\n4. a\n5. t\n6. e\nCOUNT: 6"}
+{"prompt": "Word: github", "completion": "Output:\n1. g\n2. i\n3. t\n4. h\n5. u\n6. b\nCOUNT: 6"}
+{"prompt": "Word: alphabet", "completion": "Output:\n1. a\n2. l\n3. p\n4. h\n5. a\n6. b\n7. e\n8. t\nCOUNT: 8"}
+{"prompt": "Word: spelling", "completion": "Output:\n1. s\n2. p\n3. e\n4. l\n5. l\n6. i\n7. n\n8. g\nCOUNT: 8"}
+{"prompt": "Word: gradient", "completion": "Output:\n1. g\n2. r\n3. a\n4. d\n5. i\n6. e\n7. n\n8. t\nCOUNT: 8"}
+{"prompt": "Word: training", "completion": "Output:\n1. t\n2. r\n3. a\n4. i\n5. n\n6. i\n7. n\n8. g\nCOUNT: 8"}
+{"prompt": "Word: flowable", "completion": "Output:\n1. f\n2. l\n3. o\n4. w\n5. a\n6. b\n7. l\n8. e\nCOUNT: 8"}

@@ -1,0 +1,10 @@
+torch
+transformers>=4.40
+datasets
+accelerate
+peft>=0.10
+trl>=0.15
+bitsandbytes>=0.43
+numpy
+pandas
+matplotlib

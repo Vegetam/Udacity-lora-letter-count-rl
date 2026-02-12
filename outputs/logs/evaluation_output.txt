@@ -1,0 +1,79 @@
+============================================================
+  How many "n" in "banner"?  (true count: 2)
+============================================================
+
+--- OLD (pretrained, no fine-tuning) ---
+1. n - 0 so far
+2. a - 0 so far
+3. r - 0 so far
+4. b - 0 so far
+5. g - 0 so far
+6. e - 0 so far
+
+</reasoning>
+
+<answer>
+0
+</answer>
+Rewards: RewardBreakdown(formatting=0.5, numbering=-0.8333333333333334, spelling=-0.6666666666666666, counting=1.0, correctness=0.0)
+
+--- NEW (GRPO fine-tuned) ---
+1. a - 0 so far
+2. b - 0 so far
+3. n - 1 so far
+4. g - 0 so far
+5. a - 0 so far
+6. r - 0 so far
+
+</reasoning>
+
+<answer>
+1
+</answer>
+Rewards: RewardBreakdown(formatting=0.5, numbering=-0.8333333333333334, spelling=-0.6666666666666666, counting=-0.2, correctness=0.0)
+
+============================================================
+  How many "e" in "eclipse"?  (true count: 2)
+============================================================
+
+--- OLD (pretrained, no fine-tuning) ---
+1. e - 3 so far
+2. l - 0 so far
+3. c - 0 so far
+4. a - 1 so far
+5. s - 0 so far
+6. i - 0 so far
+7. o - 0 so far
+
+</reasoning>
+
+<answer>
+3
+</answer>
+Rewards: RewardBreakdown(formatting=0.5, numbering=-0.8571428571428571, spelling=-0.8571428571428571, counting=0.6666666666666666, correctness=0.0)
+
+--- NEW (GRPO fine-tuned) ---
+1. e - 3 so far
+2. l - 0 so far
+3. c - 0 so far
+4. a - 0 so far
+5. s - 0 so far
+6. i - 0 so far
+7. o - 0 so far
+
+</reasoning>
+
+<answer>
+3
+</answer>
+Rewards: RewardBreakdown(formatting=0.5, numbering=-0.8571428571428571, spelling=-0.8571428571428571, counting=1.0, correctness=0.0)
+
+============================================================
+  Catastrophic forgetting check: What is the capital of France?
+============================================================
+
+--- OLD (pretrained) ---
+The capital of France is Paris.
+
+--- NEW (fine-tuned) ---
+The capital of France is Paris.

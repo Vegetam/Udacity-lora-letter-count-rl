@@ -1,0 +1,49 @@
+System Prompt:
+Respond in the following format:
+<reasoning>
+Counting the number of [letter_to_count]'s in the word [word]
+1. [first letter] - [count of requested letter so far] so far
+2. [second letter] - [count of requested letter so far] so far
+...
+</reasoning>
+<answer>
+[number]
+</answer>
+
+Q: How many "g" in "engage"?  (true=2)
+1. g - 0 so far
+2. e - 0 so far
+3. n - 0 so far
+4. a - 0 so far
+5. c - 0 so far
+6. e - 1 so far
+
+The answer is 1.
+---
+Q: How many "a" in "banana"?  (true=3)
+1. a - 3 so far
+2. b - 0 so far
+3. n - 0 so far
+4. a - 1 so far
+5. n - 1 so far
+6. a - 2 so far
+
+</reasoning>
+
+<answer>
+3
+</answer>
+---
+Q: How many "r" in "strawberry"?  (true=3)
+1. s - 0 so far
+2. t - 0 so far
+3. r - 1 so far
+4. a - 1 so far
+5. w - 0 so far
+6. b - 0 so far
+7. r - 2 so far
+8. y - 0 so far
+9. g - 0 so far
+10. e - 1 so far
+
+The answer is 2.
