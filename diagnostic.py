@@ -11,15 +11,13 @@ def test_rewards():
 
     print("=== Correct samples ===")
     for row in correct:
-        r = reward_single(row["prompt"], row["completion"])
-        total = sum(r.values())
-        print(f"  {row['prompt'][:30]}...  rewards={r}  total={total:.1f}")
+        r = reward_single(row["word"], row["letter"], row["count"], row["completion"])
+        print(f"  \"{row['letter']}\" in \"{row['word']}\"  rewards={r}  total={r.total:.1f}")
 
     print("\n=== Incorrect samples ===")
     for row in incorrect:
-        r = reward_single(row["prompt"], row["completion"])
-        total = sum(r.values())
-        print(f"  {row['prompt'][:30]}...  rewards={r}  total={total:.1f}")
+        r = reward_single(row["word"], row["letter"], row["count"], row["completion"])
+        print(f"  \"{row['letter']}\" in \"{row['word']}\"  rewards={r}  total={r.total:.1f}")
 
 
 if __name__ == "__main__":
